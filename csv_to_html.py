@@ -5,7 +5,7 @@ def csv_to_html(csv_file):
         reader = csv.reader(file)
         data = list(reader)
 
-    html = "<table class="table">\n"
+    html = "<table>\n"
     for row in data:
         html += "  <tr>\n"
         for cell in row:
