@@ -17,6 +17,13 @@
     <header class="border-bottom">
         <span>Анализ данных: Что отличает и связывает собак разных пород?</span>
     </header>
+
+    <p style="font-size: xx-large; text-align: left; padding-left: 15px; "></p>
+    <p style="font-size: xx-large; text-align: left; padding-left: 30px; ">Обоснование</p>
+    <p style="text-align: left; padding-left: 30px;">Существует широко распространенное мнение, что большие собаки более добрые, чем маленькие собаки. Стереотипы о собаках могут негативно влиять на отношение к ним в обществе, а также влиять на отдельные случаи взаимодействия человека с собакой
+
+
+
     <p style="font-size: xx-large; text-align: left; padding-left: 30px; ">Входные данные</p>
     <p style="text-align: left; padding-left: 30px;">В данном исследовании рассматривались 97 различных пород собак
         <ul>
@@ -124,34 +131,16 @@
             });
         });
       </script>
-    <div>
-        <p style="padding-left: 30px; font-size: large">Рассмотрим вариации роста и веса собак в зависимости от пола и породы</p>
-        <p style="padding-left: 30px; font-size: large">Между ростом собаки и ее весом наблюдаем корреляцию (ее можно подтвердить тестом Спирмена). Судя по графикам зависимость имеет кубический характер.</p>
-        <p style="text-align: center;">
-            <img src="images/diapazon_1.png" alt="Диапазон параметров высота-вес">
-        </p>
-        <p style="padding-left: 30px; font-size: large">Детальные вариации роста и веса собак в зависимости от пола и породы</p>
-        <p style="text-align: center; ">
-            <img src="images/diapazon_hieght.png" style="text-align: center; width: 70%;" alt="Диапазон параметра высота">
-        </p>
-        <p style="text-align: center; ">
-            <img src="images/diapazon_wiegth.png" style="text-align: center; width: 70%;" alt="Диапазон параметра вес">
-        </p>
-        <p style="padding-left: 30px; font-size: large">Детальные вариации возраста собак в зависимости от породы</p>
-        <p style="text-align: center;" >
-            <img src="images/diapazon_age.png" style="text-align: center; width: 70%;" alt="Диапазон параметра возраст">
-        </p>
-    </div>
+    
     <div class="list-group" style=" font-size: large; padding-top: 10px; width: 95%; padding-left: 30px;">
         <a href="#" class="list-group-item list-group-item-action">Гипотезы:</a>
-        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Продолжительность жизни собаки и ее размеры связаны</a>
         <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Существует взаимосвязь между размером собаки и её добротой</a>
         <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Существует взаимосвязь между добротой собаки к детям, людям и другим собакам</a>
-        <p style="font-size: x-small; padding-top: 5px; padding-left: 0px; padding-bottom: 10px; "> <i> ***Все гипотезы мы будем проверять с помощью теста Шапиро-Уилка </i></p>
+        <p style="font-size: small; padding-top: 5px; padding-left: 0px; padding-bottom: 10px; "> <i> ***Гипотезы будут поверены с помощью теста Шапира-Уилка и теста Спиримана</i></p>
     </div>
     <div>
-        <p><i>Интерсно проверить - крупные собаки правда добрее, чем маленькие?</i></p>
-        <p>Гипотеза №2: Существует взаимосвязь между размером собаки и её добротой</p>
+        <p><i>Проверим - крупные собаки правда добрее, чем маленькие?</i></p>
+        <p><b>Гипотеза №1:</b> Существует взаимосвязь между размером собаки и её добротой</p>
         <p style="font-size: initial;">Нулевая гипотеза: Собаки крупных пород более добрые, чем собаки мелких пород.</p>
         <p style="font-size: initial;">Альтернативная гипотеза: Собаки мелких пород более добрые, чем собаки крупных пород.</p>
         <img src="images/goodness-kids.png" style=" padding-left: 40px; width: 30%;">
@@ -160,21 +149,48 @@
         <img src="images/loyalty_kids.png" style=" padding-left: 40px; width: 30%;">
         <img src="images/loyalty_strangers.png" style=" padding-left: 40px; width: 30%;">
         <img src="images/loyalty_dogs.png" style=" padding-left: 40px; width: 30%;">
-        <p style=" font-size: large; padding-top: 10px; width: 95%; padding-left: 30px;">Выводы: Из результатов тестов Шипиро-Вилка можно сказать,
-            что собаки относятся к детям более лояльно, чем к незнакомцам и другим собакам. Судя по графикам теста Спиримана можно сделать вывод,
-            что зависимоть между размером и лояльностью к детям отсутствует и зависимость между размером и лояльностью к незнакомцам,
+        <p style=" font-size: large; padding-top: 10px; width: 95%; padding-left: 30px;">Выводы: Из результатов тестов Шипира-Уилка можно сказать,
+            что собаки относятся к детям более лояльно, чем к незнакомцам и другим собакам. По графикам теста Спиримана можно сделать вывод,
+            что зависимость между размером и лояльностью к детям отсутствует, а также что зависимость между размером и лояльностью к незнакомцам,
             другим собакам слабо выраженная. Гипотеза опровергнута.</p>
     </div>
+
     <div>
-        <p>Гипотеза №3: Продолжительность жизни собаки и ее размеры связаны</p>
+        <p><b>Гипотеза №2:</b> Величина доброты собаки к детям, незнакомцам и другим собакам коррелируют друг с другом</p>
         <p style="font-size: initial;">Нулевая гипотеза: Собаки добрые к кому-то одному, добры к кому-то ещё.</p>
         <p style="font-size: initial;">Альтернативная гипотеза: Собаки добрые к кому-то одному, недобры к другим.</p>
         <img src="images/loalty-loyalty.png" style=" padding-left: 40px; width: 30%;">
         <img src="images/loyalty-kids-loyalty-strangers.png" style=" padding-left: 40px; width: 30%;">
         <img src="images/loytalty-dogs-loyalty-strangers.png" style=" padding-left: 40px; width: 30%;">
         <p style=" font-size: large; padding-top: 10px; width: 95%; padding-left: 30px;">Выводы: Как видно из теста Спиримана доброта к детям,
-            незнакмцам и другим собакам имеет выраженную корреляцию с друг другом. Гипотеза подтвердилась.</p>
+            незнакомцам и другим собакам имеет выраженную корреляцию с друг другом. Гипотеза подтвердилась.</p>
     </div>
+    
+     <p style=" font-size: large; padding-top: 10px; width: 95%; padding-left: 30px;"><b>Выводы:</b> В ходе данной работы мы пользовались
+         статистическими методами для проверки гипотез - одна из них оказалась неверной, другая - верной. Тщательный анализ данных
+         позволил выявить зависимости, которые изначально не были очевидны.</p>
+    <style>
+        footer {
+          text-align: center;
+          font-size: large;
+          padding: 4px;
+          background-color: rgba(171 230 110 / 70%);
+          color: rgba(255 255 255 / 90%);
+        }
+        header {
+          text-align: center;
+          font-size: xxx-large;
+          padding: 15%;
+          background-color: lightpink;
+          background-image: url("images/perhot1920.jpg");
+          color: rgba(255 255 255 / 70%);
+        }
+        p {
+            padding-left: 30px;
+            font-size: large
+        }
+    </style>
+
     <div>
         <p style="font-size: xx-large; padding-left: 30px;">Анализ</p>
         <p style="font-size: initial;">Найдем матрицу корреляции базы данных и построим ее тепловую диаграмму.</p>
@@ -222,6 +238,8 @@
             font-size: large
         }
     </style>
+
+
     <footer class="footer pt-3 mt-4 text-muted border-top">
         <p>Выполнили: Прохорова Юлия, Трегуб Екатерина</p>
 <!--        <p><a href="mailto:hege@example.com">prokhorova.iua@phystech.edu</a></p>-->
